@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    gap: 16vw;
+    width: 100%;
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+nav span{
+    display: none;
+}
+
+ .nav-left ul{
+    display: flex;
+     cursor: pointer;
+    list-style: none;
+    gap: 4vw;
+}
+.nav-mid{
+    list-style: none;
+}
+.nav-mid li{
+    margin-left: 0.5vw;
+}
+
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+}
+.nav-right ul button{
+   padding: 3px 5px;
+   border-radius: 15px;
+   font-size: small;
+   cursor: pointer;
+   background-color: #C15627;
+   border: #C15627;
+   color: white;
+}
+
+.first-frame{
+    width: 100vw;
+    height: 100vh;
+}
+.down-arrow{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-slide{
+    display: flex;
+}
+.second-slide .left{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+
+.menu-{
+    display: none;
+    transform: translateX(-100%);
+  
+}
+.menu-.close{
+    display: none;
+}
+.menu-.showslide{
+    transform: translateX(0);
+}
+#cut{
+    display: none;
+}
+#cut.show{
+    display: block;
+}
+#cut.delete{
+    display: none;
+}
+#menu-icon.hide{
+display: none;
+}
+#menu-icon.showw
+{
+    display: block;
+
+}
+.about
+{
+    display: none;
+}
+.about.showabout{
+    display: block;
+}
+.about.down{
+    display: none;
+}
+
+.event{
+    display: none;
+}
+.event.start{
+    display: block;
+}
+
+.services{
+    display: none;
+}
+.services.show{
+    display: block;
+}
+
+.third-part{
+    background-image: url("https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png");
+    min-width: 100vw;
+    /* height: 100vh; */
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100vw 100vh;
+    margin-top: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :600px) {
+
+    nav  span {
+        display: block;
+        padding-left: 8vw;
+     
+    }
+    nav .nav-left{
+        display: none;
+    }
+    nav .nav-right{
+        display: none;
+    }
+
+    .menu-{
+        display: block;
+
+    }
+    nav{
+        width: 600px;
+        height: 9vh;
+        background-color: red;
+    }
+    .video-container{
+        width: 600px;
+        padding-bottom: 100%;
+        height: 550px;
+        font-size: 45px;
+    }
+
+ .second-slide{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .second-slide.left{
+    width: 100%;
+ }
+ .second-slide2{
+    display: flex;
+    flex-direction: column;
+ }
+ .second-slide2
+}
